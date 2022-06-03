@@ -1,7 +1,6 @@
 const hamburgerMenu = document.querySelector(".hamburger");
 const navContainer = document.querySelector(".nav-container");
 const header = document.querySelector(".header");
-const navBtn = document.querySelectorAll(".nav-btn");
 let hamburgerState = false;
 const screenPosition = window.innerHeight;
 
@@ -74,13 +73,6 @@ window.addEventListener("scroll", () => {
     header.style.transition = ".6s";
     mainPage.style.marginTop = "110px";
   }
-});
-
-navBtn.forEach((btn) => {
-  btn.addEventListener("click", () => {
-    hamburgerState = false;
-    hamburgerToggler();
-  });
 });
 
 elements.forEach(animate);
