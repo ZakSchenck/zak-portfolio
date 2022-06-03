@@ -160,10 +160,7 @@ header ul li:hover {
   cursor: pointer;
 }
 
-header ul li button {
-  background-color: transparent;
-  border: none;
-  outline: none;
+header ul li #resume-btn {
   color: #00ffc8;
   font-size: 18px;
   text-transform: uppercase;
@@ -173,11 +170,11 @@ header ul li button {
   position: relative;
 }
 
-header ul li button a:hover {
+header ul li #resume-btn:hover {
   color: black;
 }
 
-header ul li button::after {
+header ul li #resume-btn::after {
   content: "";
   height: 100%;
   left: 0;
@@ -190,7 +187,7 @@ header ul li button::after {
   z-index: -1;
 }
 
-header ul li button::before {
+header ul li #resume-btn::before {
   content: "";
   height: 100%;
   right: 0;
@@ -203,18 +200,13 @@ header ul li button::before {
   z-index: -1;
 }
 
-header ul li button:hover {
-  cursor: pointer;
-  color: black;
-}
-
-header ul li button:hover::after {
+header ul li #resume-btn:hover::after {
   width: 100%;
   -webkit-transition: 0.8s;
   transition: 0.8s;
 }
 
-header ul li button:hover::before {
+header ul li #resume-btn:hover::before {
   width: 100%;
   -webkit-transition: 0.8s;
   transition: 0.8s;
