@@ -1186,6 +1186,35 @@ header #logo.logosticky {
   }
 }
 
+.project.project-animate-6 {
+  -webkit-animation: project-animate-6 1s linear;
+          animation: project-animate-6 1s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes project-animate-6 {
+  0% {
+    margin-top: 190px;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 100;
+    opacity: 1;
+  }
+}
+
+@keyframes project-animate-6 {
+  0% {
+    margin-top: 190px;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 100;
+    opacity: 1;
+  }
+}
+
 @media all and (max-width: 1300px) {
   .socials-section {
     left: 30px;
