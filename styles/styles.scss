@@ -860,10 +860,9 @@ header #logo.logosticky {
 
 @media all and (max-width: 980px) {
   #about-section .about-container {
-    flex-direction: column;
-  }
-  #about-section .about-container {
     max-width: 500px;
+    margin: 0 auto;
+    flex-direction: column;
     img {
       max-width: 450px;
     }
